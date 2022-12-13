@@ -1,9 +1,10 @@
-let son = prompt( );
-if (son > 90)
-console.log('budjet');
-else if(son > 70 && son < 90)
-console.log('contract');
-else if (son > 50 && son < 70)
-console.log('supern contract')
-else if (son < 50)
-console.log('Battar bol kirolmading')
+let son1 = +prompt("sonni kiritish amaliyoti");
+let son2 = +prompt("ikkinchi sonni kiritish amaliyoti");
+let son3 = +prompt("uchinchi sonni kiritish amaliyoti");
+
+let result = Math.min(son1,son2,son3);
+console.log(result);
+
+
+
+
